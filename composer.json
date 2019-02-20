@@ -1,0 +1,25 @@
+{
+    "name": "appzz/onlime-client",
+    "description": "Onlime PHP Client",
+    "type": "library",
+    "keywords": [
+        "onlime",
+        "onlime php client"
+    ],
+    "homepage": "https://github.com/a-pp-zz/onlime-client",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "CoolSwitcher",
+            "email": "ds@appzz.pw",
+            "role": "lead"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "appzz/curl-client": "3.*"
+    },
+    "autoload": {
+        "psr-4": {"AppZz\\Http\\": "src/"}
+    }
+}
